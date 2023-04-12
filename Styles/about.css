@@ -1,0 +1,51 @@
+
+/* About Page */
+
+.about-content{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-heading{
+    color: var(--darkblue);
+    font-size: clamp(2rem, 1.7rem + 1.3vw, 3rem);;
+}
+
+.about-text{
+    color: rgba(100, 116, 159, 1);
+    font-size: clamp(1rem, 0.87rem + 0.66vw, 1.5rem);
+    max-width: 60ch;
+    margin: 0 auto 10rem;
+    line-height: 1.5;
+    padding: 0 3rem;
+}
+
+
+/* xl */
+@media (max-width: 1280px) {
+    .about-text{
+        margin-bottom: 9rem;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {   
+    .about-text{
+        margin-bottom: 8rem;
+    }
+}
+
+
+/* sm */
+@media (max-width: 640px) {   
+    .about-text{
+        margin-bottom: 7rem;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {   
+    .about-text{
+        margin-bottom: 5rem;
+    }
+}

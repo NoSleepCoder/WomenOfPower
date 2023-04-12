@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Clash Grotesk';
+    src: url('../Assets/Fonts/WEB/fonts/ClashGrotesk-Semibold.woff2') format('woff2');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+
+/* .size-label{
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+
+.container{
+    width: 100%;
+    /* border: 2px solid sienna; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1536px;
+    min-width: 320px;
+}
+
+
+/* Media Queries */
+
+/* 2xl */
+@media (max-width: 1535px) {
+    .size-label{
+        background-color: purple;
+    }
+    .container{
+        max-width: 1408px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .size-label{
+        background-color: indigo;
+    }
+    .container{
+        max-width: 1151px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {   
+    .size-label{
+        background-color: blue;
+    }
+    .container{
+        max-width: 896px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {   
+    .size-label{
+        background-color: green;
+    }
+    .container{
+        max-width: 704px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {   
+    .size-label{
+        background-color: yellow;
+    }
+    .container{
+        max-width: 560px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {   
+    .size-label{
+        background-color: orange;
+    }
+}

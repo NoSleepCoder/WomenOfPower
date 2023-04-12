@@ -1,0 +1,25 @@
+.blog-content{
+    color: rgba(100, 116, 159, 1);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog-heading{
+    color: var(--darkblue);
+    margin: 2em auto;
+    padding: 0 3rem;
+    width: 70%;
+    max-width: 32ch;
+    font-size: clamp(1.5rem, 1.3684rem + 0.6579vw, 2rem);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blog-text{
+    text-align: left;
+    font-size: clamp(1rem, 0.87rem + 0.66vw, 1.5rem);
+    width: 70%;
+    max-width: 55ch;
+    margin: 0 auto 10rem;
+    line-height: 1.5;
+    padding: 0 3rem;
+}
